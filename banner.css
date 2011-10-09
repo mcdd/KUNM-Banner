@@ -1,3 +1,15 @@
 #banner {
   background-color: #FFCC2D;
+  font-weight: bold;
+  text-align: justify;
+  text-transform: uppercase;
+  font-family: monospace;
+}
+
+#banner > span.bg {
+  color: #888;
+}
+
+#banner > span.fg {
+  color: #000;
 }
