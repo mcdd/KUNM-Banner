@@ -7,6 +7,7 @@ var highlight_random = function() {
 
 var rx_programs_cb = function(data, textStatus, jqXHR) {
   programs = data.split("\n").slice(0, -1).sort();
+  $("#banner").append("&emsp;");
   for(i=0; i<programs.length; i += 1) {
     $("#banner").append("<span>"+programs[i].slice(0, -1).replace(/ /g, "&nbsp;")+"</span> &emsp;");
   }
