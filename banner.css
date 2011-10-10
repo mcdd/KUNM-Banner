@@ -1,14 +1,16 @@
 #banner {
+  font-family: monospace;
   font-weight: bold;
+  line-height: 100%;
+  padding: 30px;
   text-align: justify;
   text-transform: uppercase;
-  font-family: monospace;
 }
 
-#banner > span.bg {
-  color: #888;
+#banner > span {
+  opacity: 0.25;
 }
 
 #banner > span.fg {
-  color: #000;
+  opacity: 1;
 }
